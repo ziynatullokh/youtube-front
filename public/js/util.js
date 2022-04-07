@@ -1,4 +1,4 @@
-const backend = 'http://192.168.43.59:5555' 
+const backend = 'http://207.154.196.81:5555' 
 
 async function req(path,method,body=null,headers =null){
     
