@@ -2,7 +2,8 @@ const express = require('express')
 const os = require('os')
 const path = require('path')
 
-const IP = os.networkInterfaces()['Беспроводная сеть'][1]['address']
+// const IP = os.networkInterfaces()['Беспроводная сеть'][1]['address']
+const IP = 'localhost'
 const PORT = process.env.PORT || 5000
 const app = express()
 
